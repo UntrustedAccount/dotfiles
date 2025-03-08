@@ -34,16 +34,18 @@
 
   services.mpd = {
 	enable = true;
-	musicDirectory = "~/Music";
+	musicDirectory = "/home/daniel/Music";
 	extraConfig = ''
-		audio_output = {
+		audio_output {
 			type	"pipewire"
 			name	"Pipewire Sound Server"
 		}
 	'';
-	user = "userRunningPipewire";
-	network.listenAddress = "any";
-	startWhenNeeded = "true";
+	user = "daniel";
+  };
+
+  systemd.services.mpd.environment = {
+	XDG_RUNTIME_DIR = "/run/user/1000";
   };
 
   services.xserver.enable = true;
@@ -86,6 +88,7 @@
 	git
 	gnumake
 	legcord
+	ncmpcpp
 	networkmanagerapplet
 	maim
 	mpc
