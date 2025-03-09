@@ -87,8 +87,8 @@
     acpilight
     alejandra
     dmenu
+    ffmpeg_6
     feh
-    ffmpeg
     firefox
     gcc
     gh
