@@ -106,6 +106,7 @@
     pfetch
     playerctl
     poetry
+    unzip
     vim
     vscode
     wezterm
