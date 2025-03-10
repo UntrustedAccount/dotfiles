@@ -90,6 +90,7 @@
     ffmpeg_6
     feh
     firefox
+    filezilla
     gcc
     gh
     git
