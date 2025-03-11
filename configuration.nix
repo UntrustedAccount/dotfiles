@@ -95,6 +95,7 @@
     gh
     git
     gnumake
+    jmtpfs
     legcord
     ncmpcpp
     networkmanagerapplet
