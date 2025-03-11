@@ -101,6 +101,7 @@
     maim
     mpc
     mpd
+    mpv
     pamixer
     pavucontrol
     pfetch
